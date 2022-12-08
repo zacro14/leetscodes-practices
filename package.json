@@ -1,0 +1,13 @@
+{
+  "name": "leetscodes practices",
+  "packageManager": "yarn@3.3.0",
+  "scripts": {
+    "palendrome": "tsc palendrome.ts"
+  },
+  "devDependencies": {
+    "tsc": "^2.0.4"
+  },
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}
