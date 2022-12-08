@@ -2,7 +2,7 @@
   "name": "leetscodes practices",
   "packageManager": "yarn@3.3.0",
   "scripts": {
-    "palendrome": "tsc palendrome.ts"
+    "palendrome": "tsc ./palendrome/palendrome.ts"
   },
   "devDependencies": {
     "tsc": "^2.0.4"

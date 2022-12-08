@@ -1,9 +1,20 @@
+/**
+ *  racecar = RaCeCaR
+ *  hello = false
+ * @param str = string
+ * @returns booleean | string
+ */
+
 function isPelendrome(str: string): boolean | string {
-  //inialised an empty string
+  // inialiased an empty string
   let reverse = "";
+
+  //reverse the string and assign it to variable 'reverse'
   for (let i = str.length - 1; i >= 0; i--) {
     reverse += str[i];
   }
+  //check if palendrome the reverse -> value is === 'str' parameter
+  // if true convert to uppercase the every other letter on the string
   if (reverse === str) {
     let upperCaseLetter = "";
     for (let j = 0; j < reverse.length; j++) {
@@ -17,5 +28,5 @@ function isPelendrome(str: string): boolean | string {
   }
   return false;
 }
-let hello = isPelendrome("racecar");
+let hello = isPelendrome("hello");
 console.log(hello);

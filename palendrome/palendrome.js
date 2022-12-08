@@ -1,5 +1,9 @@
+/**
+ *  racecar = RaCeCaR
+ * @param str
+ * @returns booleean | string
+ */
 function isPelendrome(str) {
-    //inialised an empty string
     var reverse = "";
     for (var i = str.length - 1; i >= 0; i--) {
         reverse += str[i];
@@ -18,5 +22,5 @@ function isPelendrome(str) {
     }
     return false;
 }
-var hello = isPelendrome("racecar");
+var hello = isPelendrome("hello");
 console.log(hello);
